@@ -8,7 +8,7 @@ const port = 8000
   
 //body Praser 
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(bodyParser.json()) 
+app.use(bodyParser.json())    
 
 //Static Files
 app.use(express.static('public'))
